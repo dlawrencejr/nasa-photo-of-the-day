@@ -1,0 +1,27 @@
+.main-container{
+color: white;
+font-size: 3rem;
+width: 100%;
+}
+.main-container .title{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main-container p{
+    display: flex;
+    color: #ec42f5;
+    border: 1px solid white;
+    text-align: center;
+    padding: 40px;
+    font-size: 2rem;
+    border-radius: 100px;
+    border-width:5px;  
+    border-style: inset;
+    background-color: black;
+    opacity: .6;
+}
+.main-container .photo-date{
+    font-family: 'Press Start 2P', cursive;
+}

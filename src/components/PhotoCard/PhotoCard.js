@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-
+import '../../css/PhotoCard.css';
 import Axios from "axios";
 
 export default function PhotoCard(){
@@ -21,7 +21,7 @@ export default function PhotoCard(){
     }, []);
 
     return (
-        <div>
+        <div className='photo-container'>
             <img src = {photo} alt='from NASA' />
         </div>
     );

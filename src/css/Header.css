@@ -1,0 +1,15 @@
+header{
+    margin-bottom: 10px;
+    height: 100%;
+    width: auto;
+    font-size: 3rem;
+    background-color: black;
+    border-width:5px;  
+    border-style:outset;
+    border-color: lightgray;
+}
+header h1{
+    margin:0 0 10px 0;
+    color: #bc42f5;
+    font-family: 'Press Start 2P', cursive;
+}

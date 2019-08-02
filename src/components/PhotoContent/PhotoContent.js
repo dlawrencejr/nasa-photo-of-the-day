@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-
+import '../../css/PhotoContent.css';
 import Axios from 'axios';
 
 const PhotoContent = () =>{
@@ -26,13 +26,15 @@ const PhotoContent = () =>{
 
     return (
 
-        <div>
+        <div className='main-container'>
 
-            <h1>{photoName}</h1>
-            <h3>{photoDate}</h3>
-            <p>{photoSummary}</p>
+            <h1 className='title'>{photoName}</h1>
+            <h3 className='photo-date'>{photoDate}</h3>
+            <p className='photo-text'>{photoSummary}</p>    
+        <footer>
             <h4>Copyright ©{photoCR}</h4>
-
+        </footer>
+       
         </div>
     );
 };

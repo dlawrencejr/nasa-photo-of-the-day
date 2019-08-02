@@ -1,0 +1,13 @@
+.photo-container{
+    margin: 20px;
+    padding: 50px 0;
+
+}
+
+img{
+    border-color: #bc42f5;
+    border-width:5px;  
+    border-style:outset;
+    width: 700px;
+    height: 550px;
+}
